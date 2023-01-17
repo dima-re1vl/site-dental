@@ -1,24 +1,44 @@
 @import url(default.css);
 
+/* main css */
+
 body {
-    font-family: "Montserrat" sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
 }
 
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Noto Serif', serif;
+}
+
+.mont {
+    font-family: 'Montserrat', sans-serif; 
+}
 #header {
-    margin: 40px 0px;
+    margin: 20px 0px;
 }
 
 .wrapper {
     align-items: center;
 }
 
-nav ul li{
+#nav-main ul li, .fa-cart-shopping{
     display: inline;
     list-style-type: none;
     margin-right: 25px;
+    transition: all 0.1s linear;
 }
 
-nav ul li:last-child {
+#nav-main li a {
+    transition: all 0.1s linear;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav ul:last-child {
     margin-right: 0;
 }
 
@@ -26,8 +46,76 @@ nav ul li:first-child {
     font-weight: 600;
 }
 
+#nav-main ul li:hover, #nav-main ul a:hover{
+    color:darkcyan;
+    text-decoration: underline;
+}
+
 hr {
     height: 10px;
     border-top: 3px solid #c2c2c2;
 }
 
+
+
+/* intro */
+
+#intro-first {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+#intro-second {
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.order {
+    padding: 0;
+    border: none;
+    width: 220px;
+    height: 65px;
+    border-radius: 100px;
+    background-color: #3C8AFF;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 40px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.block-intro {
+    width: 50%;
+}
+
+
+.intro-info {
+    margin-top: 150px;
+}
+
+.intro-info li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+.intro-info li:last-child {
+    margin-right: 0;
+}
+
+.block-2-intro {
+    text-align: right;
+}
+
+.doctor {
+    width: 90%;
+    text-align: right;
+}
+
+/* info section */
