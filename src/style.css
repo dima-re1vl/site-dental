@@ -7,7 +7,7 @@ body {
     color: #000;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3,h4,h5,h6,button {
     font-family: 'Noto Serif', serif;
 }
 
@@ -74,7 +74,7 @@ hr {
     font-weight: 700;
 }
 
-.order {
+.btn-order {
     padding: 0;
     border: none;
     width: 220px;
@@ -161,4 +161,50 @@ button:hover {
 
 .info-2 {
     margin: 250px 0;
+}
+
+/* about section */
+
+.block-about {
+    width: 50%;
+    margin-right: 150px;
+    padding-top: 80px;
+}
+
+.about-text {
+    margin-top: 20px;
+}
+
+.about-info {
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.block-2-about {
+    text-align: center;
+    width: 100%;
+    box-shadow: -8px 8px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 47px;
+}
+
+.container-about {
+    margin: 0 auto;
+    width: 60%;
+}
+
+
+.block-2-header {
+    margin-top: 60px;
+    line-height: 40px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.block-2-text {
+    margin-top: 70px;
+}
+
+.btn-about {
+    margin-top: 80px;
+    margin-bottom: 70px;
 }
