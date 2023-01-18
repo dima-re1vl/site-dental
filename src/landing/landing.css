@@ -1,7 +1,6 @@
-@import url(default.css);
+@import url(../default.css);
 
 /* main css */
-
 body {
     font-family: 'Montserrat', sans-serif;
     color: #000;
@@ -42,7 +41,7 @@ nav ul:last-child {
     margin-right: 0;
 }
 
-nav ul li:first-child {
+nav ul li:nth-child(2) {
     font-weight: 600;
 }
 
@@ -55,23 +54,48 @@ hr {
     width: 100%;
     height: 10px;
     border-top: 3px solid #c2c2c2;
+    margin-bottom: 0;
 }
-
 
 
 /* intro */
 
-#intro-first {
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 30px;
+#intro {
+    height: 300px;
+    margin-top: -7px;
 }
 
-#intro-second {
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 700;
+.intro-gradient {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: white;
+    -webkit-background-size: cover;
+    background-size: cover;
+    opacity: .8;
+ }
+    
+
+.intro {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: url("../img/landing/intro.png") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    opacity: 1;
+ }
+    
+.intro-block {
+    width: 100%;
+    padding-left: 300px;
+}
+
+.intro-header {
+    margin-top: 95px;
+    font-size: 30px;
+    line-height: 60px;
 }
 
 .btn-order {
@@ -80,56 +104,65 @@ hr {
     width: 220px;
     height: 65px;
     border-radius: 100px;
-    background-color: #3C8AFF;
+    background-color: #0b4cad;
     color: white;
     font-weight: 600;
     font-size: 15px;
     margin-top: 40px;
-}
-
-button:hover {
     cursor: pointer;
-}
-
-.block-intro {
-    width: 50%;
-}
-
-.block-1-intro {
-    padding-left: 40px;
-}
-
-
-.intro-info {
-    margin-top: 150px;
-}
-
-.intro-info li {
-    display: inline;
-    list-style-type: none;
-    margin-right: 30px;
-}
-
-.intro-info li:last-child {
-    margin-right: 0;
-}
-
-.block-2-intro {
-    text-align: right;
-}
-
-.doctor {
-    width: 90%;
-    text-align: right;
 }
 
 /* info section */
 
-#info {
+.rectangle {
+    display: flex;
+    margin: 0 auto;
+    width: 1300px;
+    height: 447px;
+    background: #3C8AFF;
+    border-radius: 0 0 300px 300px;
+}
+
+.info-wrapper {
+    margin: 0 auto;
+    color: white;
+    font-size: 18px;
+}
+
+.info-block:not(:last-child) {
+    margin-right: 150px;
+}
+
+.info-icon {
+    margin-right: 15px;
+}
+
+/* learn section */
+
+#learn {
+    margin-top: 100px;
+}
+
+.wrapper-learn {
+    justify-content: space-around;
+}
+
+.learn-header {
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.btn-learn {
+    margin-left: -235px;
+}
+
+/* info section */
+
+#blocks {
     margin: 200px 0;
 }
 
-.block-info {
+.block-blocks {
     width: 25%;
 }
 
@@ -155,58 +188,39 @@ button:hover {
     align-items: center;
 }
 
-.info-title {
+.blocks-title {
     margin: 15px 0px 7px;
 }
 
-.info-2 {
+.blocks-2 {
     margin: 250px 0;
 }
 
-/* about section */
+/* team section */
 
-.block-about {
+.team-info {
     width: 50%;
-    margin-right: 150px;
-    padding-top: 80px;
-}
-
-.about-text {
-    margin-top: 20px;
-}
-
-.about-info {
-    margin-top: 20px;
-    font-weight: 600;
-}
-
-.block-2-about {
     text-align: center;
-    width: 100%;
-    box-shadow: -8px 8px 15px rgba(0, 0, 0, 0.25);
-    border-radius: 47px;
-}
-
-.container-about {
     margin: 0 auto;
-    width: 60%;
 }
 
-
-.block-2-header {
-    margin-top: 60px;
-    line-height: 40px;
-    font-weight: 700;
-    font-size: 24px;
+.team-header {
+    margin-bottom: 15px;
 }
 
-.block-2-text {
-    margin-top: 70px;
+.wrapper-team {
+    justify-content: space-between;
 }
 
-.btn-about {
-    margin-top: 80px;
-    margin-bottom: 70px;
+.doctor-block {
+    width: 32%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.doctor-img {
+    width: 100%;
+    margin-bottom: 5px;
 }
 
 /* order section */
