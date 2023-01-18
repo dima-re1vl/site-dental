@@ -41,7 +41,7 @@ nav ul:last-child {
     margin-right: 0;
 }
 
-nav ul li:nth-child(2) {
+nav ul li:nth-child(5) {
     font-weight: 600;
 }
 
@@ -259,10 +259,15 @@ hr {
 
 /* footer */
 
+
 .block-in-1 {
-    margin-right: 20px;
     font-size: 20px;
-    margin-bottom: 60px;
+    margin: 0 auto;
+    margin-right: 15px;
+}
+
+.block {
+    margin-bottom: 30px;
 }
 
 .footer-background {
