@@ -1,0 +1,326 @@
+@import url(../default.css);
+
+/* main css */
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+}
+
+h1,h2,h3,h4,h5,h6,button {
+    font-family: 'Noto Serif', serif;
+}
+
+.mont {
+    font-family: 'Montserrat', sans-serif; 
+}
+#header {
+    margin: 20px 0px;
+}
+
+.wrapper {
+    align-items: center;
+}
+
+#nav-main ul li, .fa-cart-shopping{
+    display: inline;
+    list-style-type: none;
+    margin-right: 25px;
+    transition: all 0.1s linear;
+}
+
+#nav-main li a {
+    transition: all 0.1s linear;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav ul:last-child {
+    margin-right: 0;
+}
+
+nav ul li:nth-child(4) {
+    font-weight: 600;
+}
+
+#nav-main ul li:hover, #nav-main ul a:hover{
+    color:darkcyan;
+    text-decoration: underline;
+}
+
+hr {
+    width: 100%;
+    height: 10px;
+    border-top: 3px solid #c2c2c2;
+    margin-bottom: 0;
+}
+
+p {
+    font-weight: 300;
+}
+
+/* intro */
+
+#intro {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.intro-header {
+    font-size: 28px;
+    line-height: 60px;
+}
+
+
+.btn-order {
+    padding: 0;
+    border: none;
+    width: 220px;
+    height: 65px;
+    border-radius: 100px;
+    background-color: #3C8AFF;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+/* info section */
+
+.rectangle {
+    display: flex;
+    width: 1350px;
+    background: #3C8AFF;
+    border-radius: 0 0 300px 0;
+    margin-top: 80px;
+    align-items: center;
+}
+
+.wrapper-info {
+    justify-content: space-between;
+    color: #fff;
+}
+
+.info-block {
+    width: 25%;
+}
+
+.info-block-1 {
+    margin-left: 150px;
+}
+
+.block-text p {
+    margin-left: -250px;
+    margin-bottom: 20px;
+}
+
+
+
+.info-header {
+    font-weight: 600;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+.info-text{
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.video {
+    position: relative;
+    top: -48px;
+    margin-left: -313px;
+}
+
+/* doctor info section */
+
+#doctor {
+    margin-top: 120px;
+}
+
+.wrapper-doctor {
+    justify-content: space-around;
+}
+
+.doctor-img {
+    border-radius: 0 100px;
+    width: 500px;
+}
+
+.img-gradient {
+    background: linear-gradient(to right, white, black);
+}
+
+.doctor-about {
+    width: 40%;
+}
+
+.doctor-header {
+    font-weight: 600;
+    line-height: 80px;
+}
+
+.doctor-text {
+    margin-bottom: 20px;
+}
+
+/* blocks section */
+
+#blocks {
+    margin: 200px 0;
+}
+
+.block-info {
+    width: 25%;
+}
+
+.figure {
+    width: 33%;
+    height: 100px;
+    align-items: center;
+}
+
+.rectangle-1 {
+    position: absolute;
+    width: 65px;
+    height: 100px;
+    border: 1px solid #3C8AFF;
+}
+
+.rectangle-2 {
+    position: relative;
+    top: 35%;
+    width: 85px;
+    height: 50px;
+    background-color: #3C8AFF;
+    align-items: center;
+}
+
+.info-title {
+    margin: 15px 0px 7px;
+}
+
+.info-2 {
+    margin: 250px 0;
+}
+
+/* about section */
+
+.block-about {
+    width: 50%;
+    margin-right: 150px;
+    padding-top: 80px;
+}
+
+.about-text {
+    margin-top: 20px;
+}
+
+.about-info {
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.block-2-about {
+    text-align: center;
+    width: 100%;
+    box-shadow: -8px 8px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 47px;
+}
+
+.container-about {
+    margin: 0 auto;
+    width: 60%;
+}
+
+
+.block-2-header {
+    margin-top: 60px;
+    line-height: 40px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.block-2-text {
+    margin-top: 70px;
+}
+
+.btn-about {
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+
+/* order section */
+
+
+#order {
+    text-align: center;
+    margin-top: 70px;
+    height: 750px;
+}
+
+.container-order {
+    height: 750px;
+}
+
+.order-text {
+    position: relative;
+    bottom: 520px;
+    font-size: 35px;
+    color: #fff;
+    text-align: left;
+    left: 50%;
+    width: 150px;
+}
+
+.btn-container-order {
+    background-color: transparent;
+    position: relative;
+    bottom: 520px;
+    color: #fff;
+    right: -100px;
+}
+
+.btn-order-footer {
+    background-color: #17b9ff;
+}
+
+/* footer */
+
+.block-in-1 {
+    margin-right: 20px;
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+
+.footer-background {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #585858;
+}
+
+.footer-text {
+    color: #fff;
+}
+
+.footer-block-2 a i{
+    font-size: 30px;
+    margin-right: 15px;
+    transition: all 0.3s linear;
+}
+
+.footer-block-2 a:last-child {
+    margin-right: 0;
+}
+
+.footer-block-2 a>i:hover {
+    color:rgb(193, 201, 200);
+    cursor: pointer;
+}
