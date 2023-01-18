@@ -208,3 +208,32 @@ button:hover {
     margin-top: 80px;
     margin-bottom: 70px;
 }
+
+/* order section */
+
+
+#order {
+    text-align: center;
+    margin: 120px auto;
+}
+
+.main {
+    width: 100%;
+}
+
+.order-text {
+    position: relative;
+    bottom: 520px;
+    font-size: 35px;
+    color: #fff;
+    text-align: left;
+    left: 50%;
+}
+
+.btn-container-order {
+    background-color: #3CADFF;
+    position: relative;
+    bottom: 520px;
+    color: #fff;
+    right: -100px;
+}
