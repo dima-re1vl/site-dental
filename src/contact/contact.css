@@ -111,3 +111,121 @@ hr {
     margin-top: 40px;
     cursor: pointer;
 }
+
+/* info section */
+
+.rectangle {
+    display: flex;
+    margin: 0 auto;
+    width: 1300px;
+    height: 447px;
+    background: #3C8AFF;
+    border-radius: 0 0 300px 300px;
+}
+
+.info-wrapper {
+    margin: 0 auto;
+    color: white;
+    font-size: 18px;
+}
+
+.info-block:not(:last-child) {
+    margin-right: 150px;
+}
+
+.info-icon {
+    margin-right: 15px;
+}
+
+/* person section */
+
+#person {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.person-header {
+    margin-left: 300px;
+    line-height: 45px;
+    text-align: left;
+}
+
+.person-block {
+    margin-left: 300px;
+}
+
+.person-block input {
+    padding: 20px 30px 20px 30px;
+    display: block;
+    width: 665px;
+    border: none;
+}
+
+.person-block input:first-child {
+    margin-top: 50px;
+}
+
+.person-block input:not(:last-child) {
+    margin-bottom: 50px;
+}
+
+textarea { 
+    resize: none; 
+    border: none;
+    padding: 20px 30px 20px 30px;
+}
+
+input[placeholder], textarea[placeholder] {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.person-block-in {
+    text-align: left;
+    margin-right: 300px;
+}
+
+.person-block-in a {
+    color: #3C8AFF;
+}
+
+.person-block-in:first-child {
+    margin-bottom: 30px;
+}
+
+.btn-person {
+    margin-bottom: 50px;
+}
+
+/* footer */
+
+.block-in-1 {
+    margin-right: 20px;
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+
+.footer-background {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #585858;
+}
+
+.footer-text {
+    color: #fff;
+}
+
+.footer-block-2 a i{
+    font-size: 30px;
+    margin-right: 15px;
+    transition: all 0.3s linear;
+}
+
+.footer-block-2 a:last-child {
+    margin-right: 0;
+}
+
+.footer-block-2 a>i:hover {
+    color:rgb(193, 201, 200);
+    cursor: pointer;
+}
