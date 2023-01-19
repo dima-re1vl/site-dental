@@ -561,7 +561,7 @@ button:hover {
     }
 
     .doctor {
-        margin-left: -80px;
+        margin-left: -65px;
         padding: 0;
         width: 150%;
     }
@@ -602,6 +602,7 @@ button:hover {
         width: 90%;
         margin: 0 auto;
         padding-top: 50px;
+        margin-top: 50px;
     }
 
     .block-2-header {
@@ -673,7 +674,11 @@ button:hover {
     }
 
     .footer-text {
-        font-size: 10px;
+        font-size: 8px;
+    }
+
+    .footer-block-2 a i{
+        font-size: 25px;
     }
 }
 
