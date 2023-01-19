@@ -295,3 +295,251 @@ hr {
     color:rgb(193, 201, 200);
     cursor: pointer;
 }
+
+/*992px - 1200px*/
+@media screen and (max-width: 1200px) { 
+    /* main and header */
+    .container {
+        max-width: 100%;
+    }
+    .wrapper-header {
+        display: block;
+        margin: 0;
+        text-align: center;
+    }
+    hr {
+        display: block;
+        width: 100%;
+        height: 1px;
+    }
+
+    .intro-block {
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .rectangle {
+        width: 100%;
+        height: 447px;
+        background: #3C8AFF;
+        border-radius: 0 0 300px 300px;
+    }
+    
+    .info-wrapper {
+        margin: 0 auto;
+        color: white;
+        font-size: 18px;
+    }
+    
+    .info-block:not(:last-child) {
+        margin-right: 50px;
+    }
+    
+    .info-icon {
+        margin-right: 15px;
+    }
+}
+
+/*768px - 992px*/
+@media screen and (max-width: 992px) {
+    .container {
+        max-width: 100%;
+    }
+    .wrapper-header {
+        display: block;
+        margin: 0;
+        text-align: center;
+    }
+    hr {
+        display: block;
+        width: 100%;
+        height: 1px;
+    }
+
+    .rectangle {
+        width: 100%;
+        height: 447px;
+        background: #3C8AFF;
+        border-radius: 0 0 200px 200px;
+    }
+    
+    .info-wrapper {
+        margin: 0 auto;
+        color: white;
+        font-size: 18px;
+    }
+    
+    .info-block:not(:last-child) {
+        margin-right: 50px;
+    }
+    
+    .info-icon {
+        margin-right: 15px;
+    }
+
+    .figure {
+        width: 100%;
+    }
+
+    #circle-order {
+        width: 100%;
+    }
+
+    .order-text {
+        bottom: 420px;
+        font-size: 30px;
+    }
+
+    .btn-container-order {
+        bottom: 420px;
+        right: -100px;
+    }
+
+    .wrapper-learn {
+        display: block;
+        text-align: center;
+    }
+
+    #blocks {
+        margin: 100px 0;
+    }
+
+
+    .btn-learn {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .blocks-2 {
+        display: none;
+    }
+
+    .wrapper-blocks {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .block-blocks {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .figure {
+        width: 20%;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+/*576px - 768px*/
+@media screen and (max-width: 768px) {
+    .intro-header {
+        font-size: 25px;
+    }
+
+    .block-in-2 {
+        font-size: 12px;
+    }
+
+    .block-in-1 {
+        margin: 0;
+        padding: 0;
+    }
+
+    .info-wrapper {
+        display: block;
+    }
+
+    .wrapper-info {
+        justify-content: left;
+    }
+
+    .info-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .rectangle {
+        align-items: center;
+        height: 100%;
+    }
+
+    .info-block {
+        margin-top: 30px;
+        margin-right: 0px;
+        margin-left: 50px;
+    }
+
+    .info-wrapper:last-child {
+        margin-bottom: 30px;
+    }
+
+    .order-text {
+        bottom: 350px;
+        font-size: 25px;
+    }
+    
+    .btn-container-order {
+        bottom: 350px;
+        right: -100px;
+    }
+}
+
+/*320px - 576px*/
+@media screen and (max-width: 576px) {
+    .intro-header {
+        font-size: 18px;
+    }
+
+    .intro-text {
+        font-size: 14px;
+    }
+
+    .rectangle {
+        border-radius: 0 0 100px 100px;
+    }
+
+    .figure {
+        width: 35%;
+    }
+
+    #order {
+        height: 400px;
+    }
+
+    .container-order {
+        height: 0px;
+    }
+
+    .wrapper-footer {
+        display: block;
+    }
+
+    .wrapper-footer-block {
+        justify-content: center;
+    }
+    
+    .block-in-1 {
+        margin-right: 20px;
+    }
+
+    .order-text {
+        bottom: 250px;
+        font-size: 25px;
+    }
+    
+    .btn-container-order {
+        bottom: 250px;
+        right: -10px;
+    }
+
+    .footer-text {
+        font-size: 9px;
+    }
+
+    #nav-main {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
